@@ -10,7 +10,7 @@ export default function Home() {
     <h1 className="text-[50px] text-white font-semibold">
     Make Anything Possible
     <span className="text-transparent bg-clip-text bg-gradiant-to-r from-purple-500 to-cyan-500">
-    Web Development
+    {" "}Web Development
     </span>
     </h1>
     <p className="text-gray-200 hidden md:block ">
@@ -18,14 +18,14 @@ export default function Home() {
     </p>
     <div className="flex-col md:flex-row hidden md:flex gap-5 ">
 
-      <Link href="/my-skills" className="rounded-[20p x] bg-blue-500 group hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+      <Link href="/my-skills" className="rounded-[20px] bg-blue-500 group relative hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
      Learn More
       </Link>
-      <Link href="/my-projects" className="rounded-[20px] bg-blue-500 group hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+      <Link href="/my-projects" className="rounded-[20px] bg-blue-500 group relative hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
      <div className="absolute rounded-[200px] z-[1] bg-white inset-0 opacity-0 group hover:opacity-20 "/>
      My Projects
       </Link>
-      <Link href="/contact-me" className="rounded-[20px] bg-blue-500 group hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+      <Link href="/contact-me" className="rounded-[20px] bg-blue-500 group relative hover:to-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
      <div className="absolute rounded-[200px] z-[1] bg-white inset-0 opacity-0 group hover:opacity-20 "/>
      Contact Me
       </Link>
